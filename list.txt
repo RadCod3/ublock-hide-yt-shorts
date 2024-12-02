@@ -30,9 +30,9 @@ www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer
 
 ! Hide shorts tab on channel pages`
 ! Old style
-www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
+! www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
 ! New style (2023-10)
-www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
+! www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
 
 ! Hide short remixes in video descriptions and in suggestions beside the comments
 www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
